@@ -1,0 +1,12 @@
+* armadillo13
+** Install 
+#+BEGIN_SRC sh
+git clone https://github.com/bricewge/armadillo13.git
+cd armadillo13
+pip3 install -r requirements
+#+END_SRC
+
+** Use
+#+BEGIN_SRC sh 
+./armadillo_geojson.py my_file.kml .
+#+END_SRC
