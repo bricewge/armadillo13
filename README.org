@@ -3,10 +3,13 @@
 #+BEGIN_SRC sh
 git clone https://github.com/bricewge/armadillo13.git
 cd armadillo13
-pip3 install -r requirements
+pip3 install -r requirements.txt
 #+END_SRC
 
 ** Use
 #+BEGIN_SRC sh 
 ./armadillo_geojson.py my_file.kml .
 #+END_SRC
+
+** TODO
+- Modify the kml data on memory, not on disk!
