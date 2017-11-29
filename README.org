@@ -11,5 +11,7 @@ pip3 install -r requirements.txt
 ./armadillo_geojson.py my_file.kml .
 #+END_SRC
 
-** TODO
-- Modify the kml data on memory, not on disk!
+** What to do next
+*** TODO Modify the kml data on memory, not on disk!
+*** TODO Test filenames with special characters
+https://rawgit.com/araichev/kml2geojson/master/docs/_build/singlehtml/index.html#kml2geojson.main.to_filename
